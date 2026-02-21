@@ -208,7 +208,6 @@ function App() {
                       <div className="flex justify-between items-center mb-0.5">
                         <label className="font-semibold text-neutral-700 text-sm flex items-center gap-2">
                           {data.name}
-                          {key === 'nucleo' && <span className="text-[10px] text-orange-500 bg-orange-100 px-1.5 py-0.5 rounded-md uppercase tracking-wider font-bold">Tabelado</span>}
                         </label>
                         <span className="text-xs font-mono font-medium text-emerald-700 bg-emerald-50 px-2 py-1 rounded-md border border-emerald-100">
                           R$ {pricePerKg.toFixed(2)}/kg
