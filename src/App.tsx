@@ -384,8 +384,8 @@ function App() {
                   Melhor Receita para 100kg
                 </h3>
               </div>
-              <div className="p-0">
-                <table className="w-full text-sm text-left">
+              <div className="p-0 overflow-x-auto">
+                <table className="w-full text-sm text-left whitespace-nowrap">
                   <thead className="bg-neutral-50 text-neutral-500 border-b border-neutral-200">
                     <tr>
                       <th className="px-6 py-3 font-semibold">Ingrediente</th>
